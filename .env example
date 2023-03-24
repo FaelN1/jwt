@@ -1,0 +1,2 @@
+MONGODB_URI=url do banco
+JWT_SECRET=teste

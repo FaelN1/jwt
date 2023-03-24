@@ -81,4 +81,4 @@ Responses:
 
 ## Contact
 
-(<https://www.linkedin.com/in/rafael-nicolas-7119b91b7/>) or [WhatsApp](https://wa.me/5511958621210).
+[Linkedin](https://www.linkedin.com/in/rafael-nicolas-7119b91b7/) or [WhatsApp](https://wa.me/5511958621210).

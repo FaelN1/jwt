@@ -16,6 +16,6 @@ export async function EditName(req: Request, res: Response) {
     const updateUser = await user!.save();
     res.status(201).json(updateUser);
   } catch (error) {
-    res.status(400).json(error);
+    res.status(500).json(error);
   }
 }

@@ -1,6 +1,7 @@
 import { Router } from "express";
 
 import { CreateUser } from "./Controllers/CreateUser";
+import { protect } from "./Middleware/auth";
 import { Login } from "./useCases/Auth/Login";
 import { EditName } from "./useCases/User/EditnName";
 
@@ -11,4 +12,4 @@ router.post("/api/register", CreateUser);
 router.post("/api/login", Login);
 
 //Edit
-router.post("/api/edit/:id", EditName);
+router.patch("/api/edit/:id", protect, EditName);

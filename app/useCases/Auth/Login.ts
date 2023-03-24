@@ -9,7 +9,7 @@ export async function Login(req: Request, res: Response) {
 
   try {
     if (!user) {
-      res.sendStatus(401);
+      res.status(400).json({'Email is not registered'});
       return;
     }
 
@@ -23,7 +23,7 @@ export async function Login(req: Request, res: Response) {
         token,
       });
     } else {
-      res.sendStatus(400);
+      res.status(401).json({'Incorrect email or password'});
     }
   } catch (error) {
     console.log(error);

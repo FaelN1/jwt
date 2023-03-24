@@ -4,11 +4,11 @@ This project is a `Node.js` API developed in `Typescript` that provides `JSON We
 
 ## <strong>About the project</strong>
 
-A API permite o envio de mensagens, imagens e localizações, além de um menu em forma de lista, com o objetivo de facilitar o desenvolvimento de chatbots. O projeto foi desenvolvido inicialmente com o uso do puppeteer, porém, por se tratar de uma solução mais pesada, pretende-se migrar para uma opção mais leve.
+This is a `Node.js` API developed with `Typescript` that implements `JWT authentication` for user registration, login, and access control to protected routes. It also has routes for creating users and editing usernames that require authentication via `JWT token`. The API is designed to provide a secure and scalable solution for authenticating users in web applications. Its well-documented code can serve as a solid foundation for similar projects.
 
 ## <strong>How to use</strong>
 
-### To run the API, just clone or download the repository and follow the steps below
+ To run the API, just clone or download the repository and follow the steps below
 
 #
 
